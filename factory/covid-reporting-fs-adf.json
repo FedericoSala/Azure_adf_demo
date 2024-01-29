@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-fs-adf",
+	"location": "italynorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a3cd36a7-3f3a-439b-a4a9-25b28724e463",
+		"tenantId": "25302e88-3fcd-4307-8025-0681924d2a36"
+	}
+}
