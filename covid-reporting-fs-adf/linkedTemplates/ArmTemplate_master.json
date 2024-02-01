@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_adls_covidreportingfsdl'"
 		},
+		"ls_databricks_covid_cluster_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'ls_databricks_covid_cluster'"
+		},
 		"ls_adls_covidreportingfsdl_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://covidreportingfsdl.dfs.core.windows.net/"
@@ -59,6 +63,9 @@
 					},
 					"ls_adls_covidreportingfsdl_accountKey": {
 						"value": "[parameters('ls_adls_covidreportingfsdl_accountKey')]"
+					},
+					"ls_databricks_covid_cluster_accessToken": {
+						"value": "[parameters('ls_databricks_covid_cluster_accessToken')]"
 					},
 					"ls_adls_covidreportingfsdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingfsdl_properties_typeProperties_url')]"
